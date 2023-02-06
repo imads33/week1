@@ -1,0 +1,9 @@
+2. Write an algorithm to read employee salary and 3 shopping bills.
+
+step 1: Read Employee salary
+step 2: Read Bill1
+step 3: Read Bill2
+step 4: Read Bill3
+step 5: Add Bill1,Bill2 and Bill3 and store it in Total
+step 6: Compute Total*100/salary and store it in Percent
+step 7:Display Total and Percent

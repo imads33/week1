@@ -1,0 +1,7 @@
+3. Write an algorithm to find basic salary and gross salary
+
+step 1: Read Basicsalary
+step 2: Compute (87*BasicSalary)/100 store it in hra
+step 3: Compute (89*BasicSalary)/100 store it in Da 
+step 4: Compute Basicsalary+hra+Da store it in GrossSalary
+step 5:Display Grosssalary

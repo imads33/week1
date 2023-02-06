@@ -1,0 +1,6 @@
+step 1: Read first subject marks
+step 2: Read Second subject marks
+step 3: Read Third subject marks
+step 4: Add FirstSubject,SecondSubject and ThirdSubject and store it in variable Total
+step 5: Compute Total/number of subjects and store it in variable Average
+step 6: Display Total and Average
