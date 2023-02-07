@@ -1,0 +1,22 @@
+4. Grade of students
+
+step 1: Read project marks
+step 2: Read external marks
+step 3: Read internal marks
+step 4: define variable passmarks=50
+step 5: if projectMarks,externalMarks and internalMarks >=50
+step 6: compute projectGrade = 70%projectMarks/100
+step 7: compute externalGrade = 20%projectMarks/100
+step 8: compute internalGrade = 10%projectMarks/100
+step 9: compute total=projectGrade+externalGrade+internalGrade
+step 10: if total>90
+step 11: 	grade=A
+step 12:if total>70 and total<=90
+step 13: 	grade=B
+step 14:if total>50 and total<=70
+step 15: 	grade=C
+step 16:else Fail
+step 17:end if
+step 18:end if
+step 19:end if 
+step 20:end if
