@@ -1,0 +1,25 @@
+Begin
+	number amount,fivehundreds,twohundreds,hundreds
+
+	print("Enter amount")
+	input number1
+	if(amount%100==0){
+	if(amount>500){
+		fivehundreds=amount/500
+		amount=amount%500
+	}
+	else if(amount>200){
+		fivehundreds=amount200
+		amount=amount%200
+	}
+	else{
+		hundreds=amount100
+		amount=amount%100
+	}
+	print("Five Hundreds : ",fivehundreds)
+	print("Two Hundreds : ",twohundreds)
+	print("Hundreds :",hundreds)
+	}else{
+		print("Enter valid amount")
+	}
+End

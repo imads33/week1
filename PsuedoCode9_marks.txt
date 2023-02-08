@@ -1,0 +1,12 @@
+Begin
+	number marks
+
+	print("Enter number1 value")
+	input number
+	if(marks>=0 && marks<=100){
+	print("Valid Marks")
+	}
+	else{
+	print("Invalid Marks")
+	}
+End

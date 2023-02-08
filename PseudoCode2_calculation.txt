@@ -1,0 +1,18 @@
+Begin
+	number number1,number2,Sum,multiple,Diff,division
+
+	print("Enter number1 value")
+	input number1
+	print("Enter number2 value")
+	input number2
+
+	Sum=number1+number2
+	Diff=number1-number2
+	multiple=number1*number2
+	Division=number1/number2
+	
+	print("Addition is ",Sum)
+	print("Substraction is ",Diff)
+	print("Multiplication is",multiple)
+	print("Division is ",division)
+End

@@ -1,0 +1,24 @@
+Begin
+	string Name,Email,Age,Adddress
+	number phone,marks
+
+	print("Enter Name")
+	input Name
+	print("Enter Email")
+	input Email
+	print("Enter Age")
+	input Age
+	print("Enter Address")
+	input Address
+	print("Enter phone")
+	input phone
+	print("Enter marks")
+	input marks
+
+	
+	print("Name is ",Name)
+	print("Email is ",Email)
+	print("Age is",Age)
+	print("Adddress is ",Adddress)
+	print("phone is ",phone)
+End

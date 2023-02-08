@@ -1,0 +1,18 @@
+Begin
+	number number1,number2,number3
+
+	print("Enter number1 value")
+	input number1
+	print("Enter number2 value")
+	input number2
+	print("Enter number3 value")
+	input number3
+	if(number1>number2 && number1>number3){
+	print("Big Number is ",number1)
+	}
+	if(number2>number3){
+	print("Big Number is ",Number2)
+	}else{
+	print("Big Number is ",Number3)
+	}
+End

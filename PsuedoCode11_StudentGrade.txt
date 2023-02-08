@@ -1,0 +1,39 @@
+Begin
+	number projectMarks,internalMarks,externalMarks
+
+	print("Enter projectMarks")
+	input projectMarks
+	print("Enter internalMarks")
+	input internalMarks
+	print("Enter externalMarks")
+	input externalMarks
+
+	if(projectMarks>=50 && internalMarks>=50 && externalMarks>=50){
+	    projectMarks=70*projectMarks/100
+	    internalMarks=10*internalMarks/100
+	    externalMarks=20*externalMarks/100
+	    
+	    total=projectMarks+internalMarks+externalMarks
+
+		if(total>=90){
+			print("A grade")
+		}
+		else if(total>=70 && total<90){
+			print("B grade")
+		}
+		else{
+			print("C grade")
+		}
+	}
+	else{
+		if(projectMarks<50){
+			print("you failed in project",projectMarks)
+		}
+		if(internalMarks<50){
+			print("you failed in internal",internalMarks)
+		}
+		if(externalMarks<50){
+			print("you failed in external",externalMarks)
+		}
+	}
+End

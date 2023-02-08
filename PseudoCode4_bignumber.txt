@@ -1,0 +1,13 @@
+Begin
+	number number1,number2
+
+	print("Enter number1 value")
+	input number1
+	print("Enter number2 value")
+	input number2
+	if(number1>number2){
+	print("Big Number is ",number1)
+	}else{
+	print("Big Number is ",Number2)
+	}
+End
