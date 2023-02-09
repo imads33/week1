@@ -1,0 +1,17 @@
+6. count of factors of the given number
+
+Begin 
+Number number, factor=1,count=0;  
+  
+    print("Enter a number")  
+    Input number  
+ 
+    for(factor=1;factor<number/2;factor++) 
+    {  
+        if(number % factor == 0)  
+        {  
+            count=count+1 
+        } 
+    }
+	print(count)
+End 

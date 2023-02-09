@@ -1,0 +1,16 @@
+7. factors of number
+
+Begin 
+Number number, factor  
+  
+    print("Enter a number")  
+    Input number  
+  
+    for(factor=1;factor<number/2;factor++) 
+    {  
+        if(number % factor == 0)  
+        {  
+            print(factor)  
+        }  
+    }
+End

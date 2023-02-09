@@ -1,0 +1,24 @@
+5. Prime number using for loop
+
+
+Begin 
+Number number, factor,count=1  
+  
+    print("Enter a number")  
+    Input number  
+  
+    for(factor=0;factor<=number;factor++)  
+    {  
+        if(number % factor == 0)  
+        {  
+            count=count+1
+        } 
+    }
+
+if(count>1){
+print("not prime")
+}
+else{
+print("prime")
+}
+End 

@@ -6,14 +6,12 @@ Begin
 Number number, sum=0,rem 
   
     print("Enter a number")  
-    Input number
-
-    while(number>=0)
+    Input number  
+    for(i=0;number>=0;i++)
     {
         rem = number % 10;
 	sum=sum+rem
 	number=number/10
     }
-
 print("sum is",sum)
 End

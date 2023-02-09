@@ -1,0 +1,16 @@
+2. Write a program to find number of digits in a given number
+        Sample input:   6729
+          output:  4
+
+Begin 
+Number number, digits=0  
+  
+    print("Enter a number")  
+    Input number  
+    for(i=0;number>=0;i++)
+    {
+        number = number / 10;
+        digits=digits+1;
+    }
+print("number of digits :",digits)
+End
