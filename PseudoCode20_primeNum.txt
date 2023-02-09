@@ -1,0 +1,24 @@
+#prime number
+
+Begin 
+Number number, factor,flag=0,count=1;  
+  
+    print("Enter a number")  
+    Input number  
+  
+    while(factor <= number)  
+    {  
+        if(number % factor == 0)  
+        {  
+            count=count+1
+        } 
+	factor=factor+1
+    }
+
+if(count>1){
+print("not prime")
+}
+else{
+print("prime")
+}
+End 

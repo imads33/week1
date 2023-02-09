@@ -1,0 +1,17 @@
+#factors of number
+
+Begin 
+Number number, factor = 1;  
+  
+    print("Enter a number")  
+    Input number  
+  
+    while(factor < number/2)  
+    {  
+        if(number % factor == 0)  
+        {  
+            print(factor)  
+        }  
+       factor=factor+1 
+    }
+End 

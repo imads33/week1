@@ -1,0 +1,14 @@
+Begin
+  Number number=1,evenSum,oddSum
+  while(number<=10){
+    if(number%2==0){
+       evenSum=evenSum+number
+    }
+    else{
+       oddSum=oddSum+number
+    }
+   number=number+1
+  }
+  print(evensum,"Even Sum")
+  print(oddSum,"Odd Sum")
+End

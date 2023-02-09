@@ -3,6 +3,7 @@ Begin
 
 	print("Enter number1 value")
 	input number
+
 	if(number==0){
 	print("Number is Zero")
 	}

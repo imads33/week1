@@ -1,0 +1,18 @@
+#count of factors of the given number
+
+Begin 
+Number number, factor=1,count=1;  
+  
+    print("Enter a number")  
+    Input number  
+ 
+    while(factor < number/2) 
+    {  
+        if(number % factor == 0)  
+        {  
+            count=count+1  
+        } 
+	 factor=factor+1
+    }
+	print(factor)
+End 
