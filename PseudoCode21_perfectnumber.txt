@@ -1,0 +1,31 @@
+4.  Write a program to accept a number and check it is perfect number or not
+ 
+        input:  6
+                 1 +2+3  ==> 6
+       input :28
+                 1 +2 + 4+ 7+ 14  ==> 28
+       input: 10
+                 1+2+5 ==> 10
+
+
+Begin 
+Number number, perfect=0,count=1;  
+  
+    print("Enter a number")  
+    Input number  
+ 
+    while(count < number/2) 
+    {  
+        if(number % count == 0)  
+        {  
+            perfect=ferfect+count 
+        } 
+	 count=count+1
+    }
+if perfect==number{
+print("perfect")
+}
+else{
+print("No")
+}
+End 

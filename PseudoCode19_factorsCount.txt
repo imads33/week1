@@ -14,5 +14,5 @@ Number number, factor=1,count=1;
         } 
 	 factor=factor+1
     }
-	print(factor)
+	print(count)
 End 

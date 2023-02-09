@@ -1,0 +1,20 @@
+5. Write a program to accept a number and print table for it.
+      input : 2
+                  2*1=2
+                  2*2=4
+           
+                  2*10=20
+
+Begin 
+Number number,count=0,multiple=0  
+  
+    print("Enter a number")  
+    Input number  
+ 
+    while(count<=10) 
+    {  
+	print(number,"*",count,"=",multiple)
+	multiple=number*count
+	 count=count+1
+    }
+End 
