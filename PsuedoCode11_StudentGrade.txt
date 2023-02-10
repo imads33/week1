@@ -1,3 +1,5 @@
+#Student grades
+
 Begin
 	number projectMarks,internalMarks,externalMarks
 
@@ -8,7 +10,8 @@ Begin
 	print("Enter externalMarks")
 	input externalMarks
 
-	if(projectMarks>=50 && internalMarks>=50 && externalMarks>=50){
+	if(projectMarks>=50 && internalMarks>=50 && externalMarks>=50)
+	{
 	    projectMarks=70*projectMarks/100
 	    internalMarks=10*internalMarks/100
 	    externalMarks=20*externalMarks/100

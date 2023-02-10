@@ -13,8 +13,7 @@ Number number,count=0,multiple=0
  
     while(count<=10) 
     {  
-	print(number,"*",count,"=",multiple)
-	multiple=number*count
+	print(number,"*",count,"=",number*count)
 	 count=count+1
     }
-End 
+End

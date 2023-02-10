@@ -1,7 +1,7 @@
 #prime number
 
 Begin 
-Number number, factor,flag=0,count=1;  
+Number number, factor,count=1;  
   
     print("Enter a number")  
     Input number  
